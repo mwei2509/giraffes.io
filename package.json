@@ -3,11 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-gist-embed": "0.0.3",
+    "react-over-scroll": "^1.1.0"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "babel-plugin-react-transform": "^2.0.2",
+    "livereactload": "^3.3.0",
+    "react-proxy": "^1.1.8",
+    "react-scripts": "0.9.5",
+    "watchify": "^3.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
